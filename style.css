@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  max-height: 100%;
+  background-color: #333;
+  gap: 10px;
+}
+
+.flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  background-color: #d3d1d1;
+  padding: 30px;
+  border-radius: 10px;
+  gap: 10px;
+  min-width: 100px;
+  max-width: 350px;
+}
+
+.img-container {
+  border: 2px solid blue;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-image: url("https://images.albertsons-media.com/is/image/ABS/184020068?$ng-ecom-pdp-desktop$&defaultImage=Not_Available");
+  background-position: center center;
+  background-size: cover;
+}
+
+.item-img {
+  width: 100px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.btn {
+  width: 100%;
+  padding: 15px 5px;
+  background-color: blueviolet;
+  border-radius: 10px;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #6f23b6;
+}
